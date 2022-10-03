@@ -78,9 +78,9 @@ interface MinerConfig : Config {
     }
 
     @ConfigItem(
-        keyName = "rock",
-        name = "Rock Type",
-        description = "Choose Rock to mine",
+        keyName = "tree",
+        name = "Tree Type",
+        description = "Choose Tree to cut",
         position = 11,
         section = rockType
     )
@@ -112,5 +112,3 @@ interface MinerConfig : Config {
     }
 
 }
-
-
