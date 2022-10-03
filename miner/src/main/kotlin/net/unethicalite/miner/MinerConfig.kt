@@ -78,17 +78,15 @@ interface MinerConfig : Config {
     }
 
     @ConfigItem(
-        keyName = "tree",
-        name = "Tree Type",
-        description = "Choose Tree to cut",
+        keyName = "rock",
+        name = "Rock Type",
+        description = "Choose Rock to mine",
         position = 11,
         section = rockType
     )
     @JvmDefault
     fun rockType(): Rock {
-        return Rock.IRON,
-        return Rock.TIN,
-        return ROCK.COPPER
+        return Rock.IRON
     }
     @ConfigItem(
         keyName = "radius",
